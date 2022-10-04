@@ -7,7 +7,6 @@ export function Home() {
     <Container >
       <Header />
       <HomeBox />
-
     </Container>
   )
 }
