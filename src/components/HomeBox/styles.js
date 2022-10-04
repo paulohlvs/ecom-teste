@@ -14,7 +14,7 @@ export const Container = styled.div`
   h1 {
     font-size: 32px;
     color: #c0d4df;
-    margin: 50px 0 20px;
+    margin: 50px 0 10px;
     color: ${({ theme }) => theme.COLORS.BUTTON};
   }
 `
@@ -37,6 +37,10 @@ export const Content = styled.div`
     border: 0;
     padding: 32px 48px;
     font-size: 32px;
-    color: #c0d4df;
+    color: ${({ theme }) => theme.COLORS.BUTTON};
+
+    :hover {
+      opacity: 0.8;
+    }
   }
 `
